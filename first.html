@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Market Research</title>
+    <link rel="stylesheet" href="second.css">
+</head>
+<body>
+
+    <!-- Navigation Tabs -->
+    <div class="tabs">
+        <button class="tab-button" onclick="openTab(event, 'stocks')">Stocks</button>
+        <button class="tab-button" onclick="openTab(event, 'indexes')">Indexes</button>
+        <button class="tab-button" onclick="openTab(event, 'home')">Home</button>
+    </div>
+
+    <!-- Tab content -->
+    <div id="home" class="tab-content">
+        <h2>Major Indexes</h2>
+        <div id="major-indexes"></div>
+    </div>
+
+    <div id="stocks" class="tab-content">
+        <h2>Indian Stocks</h2>
+        <div id="stocks-list"></div>
+    </div>
+
+    <div id="indexes" class="tab-content">
+        <h2>Stock Index Data</h2>
+        <div id="index-data"></div>
+    </div>
+
+    <script src="third.js"></script>
+</body>
+</html>
